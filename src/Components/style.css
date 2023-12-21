@@ -27,3 +27,181 @@
      background-position: 200% center;
    }
  }
+
+
+ /*project page css*/
+ .hello{
+  font-weight: 500;
+  margin-bottom: 200px;
+}
+.colored-letter{
+  color: rgb(6, 122, 6);
+}
+.h-text{
+  font-weight: 700;
+  font-size: 50px;
+  
+}
+.p-text{
+  font-size: 18px;
+  font-weight: 500;
+}
+/* .header-bg{
+  background-image: url(./images/header-bg2.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: cover;
+  background-position: top center;
+  border-bottom: 5px solid #000;
+} */
+.header-text{
+  margin-top: 14%;
+  margin-left: 60px;
+  color: rgb(247, 185, 185);
+}
+.nav-link{
+  color: green;
+  font-weight: 500;
+}
+.work-btn{
+  border: 2px solid rgb(20, 82, 20);
+  background: none;
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 10px 50px;
+  
+  color: white;
+}
+.work-btn:hover{
+  border: 2px solid #4f9c2d;
+  background: none;
+  color: rgb(20, 82, 20);
+  text-decoration: none;
+  background-color: #111b07;
+}
+.download{
+  border: 2px solid green;
+  padding: 11px 18px;
+  margin-right: 10px;
+  color: rgb(169, 190, 169);
+  font-weight: 500;
+  margin-top: 1px;
+}
+.download:hover{
+  text-decoration: none;
+  background-color: green;
+  color: white;
+}
+.nav-link:hover{
+  color: #000;
+}
+.resume-btn{
+  background: none;
+  color: #4f9c2d;
+  font-weight: 500;
+  border: 2px solid #4f9c2d;
+  font-size: 20px;
+  margin-top: -6px;
+  padding: 8px 25px;
+}
+.resume-btn:hover{
+  background-color: #333d2e;
+  color: rgb(61, 42, 42);
+}
+.text-brand{
+  font-weight: 700;
+  margin: 0px 0 40px;
+  text-align: center;
+}
+.text-brand u{
+  text-decoration: none;
+  border-bottom: 5px solid green;
+}
+.skill-icon img{
+  width: 100px;
+}
+
+.project-body{
+  position: relative;
+  box-shadow: 5px 5px 10px rgb(187, 187, 187);
+  border-radius: 15px;
+  perspective: 1000px;
+}
+.project-body .project-card{
+  transform: rotateY(0);
+  transition: all 0.5s ease-in-out 0s;
+}
+.project-body:hover .project-card{
+  transform: rotateY(-90deg);
+}
+.project-body .project-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 40px 30px 40px 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color:white;
+  transform: rotateY(90deg);
+  transition: all 0.5s ease-in-out 0s;
+}
+.project-body:hover .project-content{
+  transform: rotateY(0);
+}
+
+.project-img img{
+  /* box-shadow: 5px 5px 5px gray;
+  margin-bottom: 15px; */
+  border-radius: 10px 10px 0 0;
+}
+.project-details{
+  background-color: #7ab95f;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+.project-description{
+  font-weight: 500;
+}
+.tools{
+  border: 1px solid black;
+ /* background-color: #4f9c2d; */
+ margin-bottom: 5px;
+ padding: 5px 10px;
+ color: #162c0c;
+ border-radius: 3px;
+ box-shadow: 2px 2px 2px gray;
+}
+.tech-tools{
+ margin-left: -40px;
+
+}
+.links{
+
+}
+.live-link, .git-link{
+  background-color: rgb(24, 24, 24);
+  border: 1px solid green;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin: -5px 10px 0 -5px;
+  font-size: 15px;
+}
+.live-link:hover, .git-link:hover{
+  background-color: #295f11;
+  color: white;
+  text-decoration: none;
+}
+.explore-btn{
+  border: 2px solid #4f9c2d;
+  padding: 10px 85px;
+  color: black;
+  font-weight: 700;
+}
+.explore-btn:hover{
+  background-color: #4f9c2d;
+  color: #fff;
+  text-decoration: none;
+}
